@@ -26,10 +26,14 @@ filetype plugin indent on    " required
 
 
 " Custom Key Bindings
-source ~/.vim/settings/custom_key_mappings
+source ~/.vim/settings/key_mappings
+
+" Custom Key Bindings
+source ~/.vim/settings/command_mappings
 
 " NERDTree Settings
 source ~/.vim/settings/NERDTree
+
 
 
 
