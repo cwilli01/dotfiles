@@ -1,10 +1,16 @@
 SETUP:
 
-sudo ln -s ~/dotfiles/.gitconfig ~/.gitconfig
-
 sudo ln -s ~/dotfiles/.vim ~/.vim
 
 sudo ln -s ~/dotfiles/.vimrc ~/.vimrc
+
+sudo ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+
+sudo ln -s ~/dotfiles/.bash_profile ~/.bash_profile
+
+sudo ln -s ~/dotfiles/.bash_aliases ~/.bash_aliases
+
+sudo ln -s ~/dotfiles/.ps1.bash ~/.ps1.bash
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
