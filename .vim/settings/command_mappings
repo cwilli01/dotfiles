@@ -1,3 +1,4 @@
 command! Q q
 command! W w
 command! WQ wq
+command! WQA wqa
