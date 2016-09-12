@@ -30,8 +30,11 @@ Plugin 'scrooloose/nerdcommenter'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Default "sets"
-source ~/.vim/settings/settings
+" Default sets (must come first)
+source ~/.vim/settings/default_settings
+
+" Colorscheme
+source ~/.vim/settings/colorscheme
 
 " Custom Key Bindings
 source ~/.vim/settings/key_mappings
@@ -53,4 +56,3 @@ source ~/.vim/settings/nerdtree_git_plugin
 
 " NERDCommenter Settings
 source ~/.vim/settings/NERDCommenter
-

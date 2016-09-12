@@ -7,7 +7,7 @@ set autoread
 " Sync working directory with current working directory
 set autochdir
 
-" Turn on syntax highlighting
+" Turn on syntax highlighting (messing up colorscheme atm)
 syntax on
 
 " Better command-line completion
