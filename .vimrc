@@ -25,6 +25,8 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 " Easy commenting
 Plugin 'scrooloose/nerdcommenter'
 
+" Nice colorschemes
+Plugin 'chriskempson/vim-tomorrow-theme'
 
 " All Plugins must be added before the following line
 call vundle#end()            " required

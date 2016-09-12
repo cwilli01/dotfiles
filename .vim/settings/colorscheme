@@ -1,1 +1,5 @@
-colorscheme justin
+try
+  set rtp+=~/.vim/bundle/vim-tomorrow-theme
+  colorscheme Tomorrow-Night-Bright
+catch
+endtry
