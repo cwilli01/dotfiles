@@ -27,6 +27,8 @@ filetype plugin indent on    " required
 
 
 
+" NERDTree Settings
+source ~/.vim/settings/NERDTree
 
 
 
