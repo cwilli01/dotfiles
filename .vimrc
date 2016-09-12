@@ -19,6 +19,9 @@ Plugin 'VundleVim/Vundle.vim'
 " File tree browser
 Plugin 'scrooloose/nerdtree'
 
+" Git hints in NERDTree
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+
 
 " All Plugins must be added before the following line
 call vundle#end()            " required
@@ -34,6 +37,8 @@ source ~/.vim/settings/command_mappings
 " NERDTree Settings
 source ~/.vim/settings/NERDTree
 
+" NERDTree Git Plugin  Settings
+source ~/.vim/settings/nerdtree_git_plugin
 
 
 
