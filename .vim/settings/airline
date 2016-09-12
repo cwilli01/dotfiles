@@ -1,0 +1,5 @@
+" Auto populate symbols
+let g:airline_powerline_fonts = 1
+
+" Always make bar show
+set laststatus=2

@@ -61,3 +61,6 @@ source ~/.vim/settings/nerdtree_git_plugin
 
 " NERDCommenter Settings
 source ~/.vim/settings/NERDCommenter
+
+" Airline Settings
+source ~/.vim/settings/airline
