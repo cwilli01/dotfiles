@@ -25,7 +25,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 
-
+" Custom Key Bindings
+source ~/.vim/settings/custom_key_mappings
 
 " NERDTree Settings
 source ~/.vim/settings/NERDTree
