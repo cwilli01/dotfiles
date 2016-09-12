@@ -3,3 +3,9 @@ let g:airline_powerline_fonts = 1
 
 " Always make bar show
 set laststatus=2
+
+" Fix overlaps
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
