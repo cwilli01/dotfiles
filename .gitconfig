@@ -1,0 +1,36 @@
+[user]
+    name = Justin Myers
+    email = justin@convoy.com
+
+[diff]
+    tool = vimdiff
+
+[color]
+    ui = auto
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = cyan
+
+[color]
+    ui = true
+
+[color "diff"]
+    whitespace = red reverse
+
+[core]
+    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    editor=vim
+    pager=less -r

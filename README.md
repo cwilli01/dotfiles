@@ -1,5 +1,7 @@
 SETUP:
 
+sudo ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+
 sudo ln -s ~/dotfiles/.vim ~/.vim
 
 sudo ln -s ~/dotfiles/.vimrc ~/.vimrc
