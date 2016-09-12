@@ -25,6 +25,9 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 " Easy commenting
 Plugin 'scrooloose/nerdcommenter'
 
+" Cool status bar
+Plugin 'vim-airline/vim-airline'
+
 " Nice colorschemes
 Plugin 'chriskempson/vim-tomorrow-theme'
 
