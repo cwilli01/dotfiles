@@ -37,6 +37,9 @@ source ~/.vim/settings/command_mappings
 " Filetype hints 
 source ~/.vim/settings/filetype_hints
 
+" Kill whitespace on close
+source ~/.vim/settings/kill_whitespace_on_close
+
 " NERDTree Settings
 source ~/.vim/settings/NERDTree
 

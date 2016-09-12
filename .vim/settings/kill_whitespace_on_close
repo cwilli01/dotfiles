@@ -1,0 +1,7 @@
+function! KillTrailingWhitespace()
+  let winview = winsaveview()
+  exec ':%s/\s\+$//e'
+  call winrestview(winview)
+endfunction
+
+autocmd BufWritePre * :call KillTrailingWhitespace()
