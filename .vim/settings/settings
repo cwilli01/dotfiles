@@ -1,0 +1,48 @@
+" Allows switching from unsaved buffer without saving it and share the history for multiple files.
+set hidden
+
+" Load modified files automatically
+set autoread
+
+" Sync working directory with current working directory
+set autochdir
+
+" Turn on syntax highlighting
+syntax on
+
+" Better command-line completion
+set wildmenu
+
+" Show line numbers
+set number
+
+" Display commands
+set showcmd
+
+" Show matching brackets
+set showmatch
+
+" Highlight search
+set hlsearch
+set incsearch
+
+" Case insensitive search
+set ignorecase
+set smartcase
+
+" Nice copy pasting
+set paste
+
+"""""""""""""""""""""""""""""""
+"" Identation settings - 2 spaces as a tab
+"""""""""""""""""""""""""""""""
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+set expandtab
+
+" Auto indentation
+set autoindent
+set smartindent
+set cindent
+set backspace=2

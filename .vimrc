@@ -30,6 +30,8 @@ Plugin 'scrooloose/nerdcommenter'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" Default "sets"
+source ~/.vim/settings/settings
 
 " Custom Key Bindings
 source ~/.vim/settings/key_mappings
