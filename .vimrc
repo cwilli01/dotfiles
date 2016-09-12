@@ -34,6 +34,9 @@ source ~/.vim/settings/key_mappings
 " Custom Key Bindings
 source ~/.vim/settings/command_mappings
 
+" Filetype hints 
+source ~/.vim/settings/filetype_hints
+
 " NERDTree Settings
 source ~/.vim/settings/NERDTree
 
