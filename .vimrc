@@ -28,6 +28,9 @@ Plugin 'scrooloose/nerdcommenter'
 " Cool status bar
 Plugin 'vim-airline/vim-airline'
 
+"Git integration
+Plugin 'tpope/vim-fugitive'
+
 " Nice colorschemes
 Plugin 'chriskempson/vim-tomorrow-theme'
 
