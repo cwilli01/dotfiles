@@ -22,6 +22,9 @@ Plugin 'scrooloose/nerdtree'
 " Git hints in NERDTree
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
+" Easy commenting
+Plugin 'scrooloose/nerdcommenter'
+
 
 " All Plugins must be added before the following line
 call vundle#end()            " required
@@ -34,7 +37,7 @@ source ~/.vim/settings/key_mappings
 " Custom Key Bindings
 source ~/.vim/settings/command_mappings
 
-" Filetype hints 
+" Filetype hints
 source ~/.vim/settings/filetype_hints
 
 " Kill whitespace on close
@@ -46,5 +49,6 @@ source ~/.vim/settings/NERDTree
 " NERDTree Git Plugin  Settings
 source ~/.vim/settings/nerdtree_git_plugin
 
-
+" NERDCommenter Settings
+source ~/.vim/settings/NERDCommenter
 
