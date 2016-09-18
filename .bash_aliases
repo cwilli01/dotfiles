@@ -10,10 +10,6 @@ alias ls='ls -hlaHG'
 
 # grep
 alias grep='grep -H -I --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-
-
 
 alias web='cd /Users/justinmyers/Convoy/Projects/shipotle-web && nvm use'
 alias api='cd /Users/justinmyers/Convoy/Projects/shipotle-api && nvm use'
