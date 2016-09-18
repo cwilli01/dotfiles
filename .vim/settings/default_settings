@@ -39,6 +39,9 @@ set encoding=utf-8
 " Use .bash_profile when using :shell
 set shell=bash\ -l
 
+" Save the way watchman likes
+set backupcopy=yes
+
 """""""""""""""""""""""""""""""
 "" Identation settings - 2 spaces as a tab
 """""""""""""""""""""""""""""""
