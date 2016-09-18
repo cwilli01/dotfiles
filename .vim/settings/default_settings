@@ -36,6 +36,9 @@ set paste
 " set encoding
 set encoding=utf-8
 
+" Use .bash_profile when using :shell
+set shell=bash\ -l
+
 """""""""""""""""""""""""""""""
 "" Identation settings - 2 spaces as a tab
 """""""""""""""""""""""""""""""
