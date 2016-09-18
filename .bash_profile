@@ -1,5 +1,6 @@
 source ~/.bash_aliases
 source ~/.ps1.bash
+source ~/dotfiles/git_scripts/git-completion.bash
 
 # added by NPM
 export NVM_DIR="/Users/justinmyers/.nvm"
