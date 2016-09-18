@@ -28,11 +28,14 @@ Plugin 'scrooloose/nerdcommenter'
 " Cool status bar
 Plugin 'vim-airline/vim-airline'
 
-"Git integration
+" Git integration
 Plugin 'tpope/vim-fugitive'
 
 " Nice colorschemes
 Plugin 'chriskempson/vim-tomorrow-theme'
+
+" CTRLP - fuzzy file finder
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " All Plugins must be added before the following line
 call vundle#end()            " required
@@ -67,3 +70,6 @@ source ~/.vim/settings/NERDCommenter
 
 " Airline Settings
 source ~/.vim/settings/airline
+
+" Ctrlp settings
+source ~/.vim/settings/ctrlp

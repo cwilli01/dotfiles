@@ -6,5 +6,8 @@ map <leader>f :tabnext<CR>
 " ,b = previous tab
 map <leader>b :tabprevious<CR>
 
-" ,n = toggle NERDTree 
+" ,n = toggle NERDTree
 map <leader>n :NERDTreeToggle<CR>
+
+" ,o = toggle CTRLP
+map <leader>o :CtrlPMixed<CR>
