@@ -9,3 +9,6 @@
 # IntelliJ
 *.iml
 .idea/
+
+# VSCode
+.vscode/

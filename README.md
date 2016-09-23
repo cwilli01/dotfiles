@@ -6,6 +6,8 @@ sudo ln -s ~/dotfiles/.vimrc ~/.vimrc
 
 sudo ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 
+sudo ln -s ~/dotfiles/.gitignore ~/.gitignore
+
 sudo ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 
 sudo ln -s ~/dotfiles/.bash_aliases ~/.bash_aliases
