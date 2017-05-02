@@ -1,7 +1,9 @@
 # git
-alias s="git status"
-alias d="git diff"
-alias l="git log"
+alias ca='git commit --amend'
+alias d='git diff'
+alias dc='git diff --cached'
+alias l='git log'
+alias s='git status'
 
 # Add some easy shortcuts for formatted directory listings and add a touch of color.
 alias ll='ls -lFG'
