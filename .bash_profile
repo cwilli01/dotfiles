@@ -22,3 +22,11 @@ launchctl setenv ANDROID_HOME "${ANDROID_HOME}"
 launchctl setenv ANDROID_NDK_HOME "${ANDROID_NDK_HOME}"
 launchctl setenv ANDROID_SDK "${ANDROID_SDK}"
 launchctl setenv ANDROID_NDK "${ANDROID_NDK}"
+
+# Make SED work
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
+
+# Load rbenv by default
+eval "$(rbenv init -)"
+
