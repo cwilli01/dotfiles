@@ -8,7 +8,6 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-
 """""""""""""""""""""""""""""""
 "" Plugins
 """""""""""""""""""""""""""""""
@@ -36,6 +35,9 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 
 " CTRLP - fuzzy file finder
 Plugin 'ctrlpvim/ctrlp.vim'
+
+" YouCompleteMe
+" Plugin 'Valloric/YouCompleteMe'
 
 " All Plugins must be added before the following line
 call vundle#end()            " required
