@@ -14,7 +14,11 @@ export PATH="./node_modules/.bin:$PATH"
 
 
 # Android things
-export ANDROID_HOME="/usr/local/opt/android-sdk"
-export ANDROID_NDK_HOME="/usr/local/opt/android-ndk-r10e"
+export ANDROID_SDK="/usr/local/opt/android-sdk"
+export ANDROID_NDK="/usr/local/opt/android-ndk-r10e"
+export ANDROID_HOME="${ANDROID_SDK}"
+export ANDROID_NDK_HOME="${ANDROID_NDK}"
 launchctl setenv ANDROID_HOME "${ANDROID_HOME}"
 launchctl setenv ANDROID_NDK_HOME "${ANDROID_NDK_HOME}"
+launchctl setenv ANDROID_SDK "${ANDROID_SDK}"
+launchctl setenv ANDROID_NDK "${ANDROID_NDK}"
