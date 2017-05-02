@@ -14,11 +14,21 @@ sudo ln -s ~/dotfiles/.bash_aliases ~/.bash_aliases
 
 sudo ln -s ~/dotfiles/.ps1.bash ~/.ps1.bash
 
+sudo ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 git clone git@github.com:powerline/fonts.git && cd fonts && bash setup.sh
 
 Set Terminal to use font "Source code Prfo medium 10pt"
+
+Install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Tmux
+http://www.davidverhasselt.com/enable-mouse-support-in-tmux-on-os-x/
+brew install tmux
+brew install wget
 
 
 
